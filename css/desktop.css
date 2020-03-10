@@ -1,0 +1,91 @@
+@media (min-width: 769px) {
+    .navbar-menu-btn{
+        display: none;
+    }
+
+    .navbar-list{
+        display: flex;
+        position: static;
+        transform: translateX(0) translateY(0);
+        flex-direction: row;
+        width: auto;
+    }
+
+    .navbar-item{
+        border: none;
+        margin-right: 100px;
+    }
+
+    .navbar-item:nth-last-child(1){
+        margin-right: 70px;
+    }
+
+
+    .cards-item{
+        width: 26%;
+    }
+
+    .adout-us-title{
+        font-size: 25px;
+    }
+
+    .card-text{
+        font-size: 18px;
+    }
+
+    .map{
+        margin: 0 auto;
+    }
+
+    .map-text{
+        font-size: 22px;
+    }
+
+    .contacts{
+        border: none;
+    }
+    .contacts-title{
+        text-align: left;
+        font-size: 45px;
+        margin-left: 100px;
+    }
+
+    .contacts-container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contacts-item{
+        width: 30%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .contacts-info{
+        font-size: 25px;
+    }
+
+    .contacts-info-item{
+        margin-top: 10px;
+    }
+
+    .contacts-item-info{
+        display: block;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .decoration-rectangle{
+        top: 0;
+        transform: translateY(0) translateX(100%);
+        width: 60px;
+        height: 70%;
+    }
+
+    .rectangle-section{
+        width: 1160px;
+    }
+}
